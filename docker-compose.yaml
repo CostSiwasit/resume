@@ -1,0 +1,8 @@
+version: '3'
+services:
+  myapp:
+    image: portfolio/node-express
+    ports:
+      - "8000:3000"
+    command: "npm start"
+
